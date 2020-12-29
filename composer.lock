@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65b99947ea65bb796b7b57b8c3ff77a0",
+    "content-hash": "bb0a843b010bd1bd10cc25a610e44068",
     "packages": [
         {
             "name": "pierreminiggio/database-connection",
