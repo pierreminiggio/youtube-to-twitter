@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33e358a7ef6abce801d7bf9d1ef49468",
+    "content-hash": "65b99947ea65bb796b7b57b8c3ff77a0",
     "packages": [
         {
             "name": "pierreminiggio/database-connection",
@@ -42,6 +42,43 @@
                 "source": "https://github.com/pierreminiggio/database-connection/tree/1.2.1"
             },
             "time": "2020-12-27T17:59:34+00:00"
+        },
+        {
+            "name": "pierreminiggio/twitter-helpers",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pierreminiggio/twitter-helpers.git",
+                "reference": "8b556832cd6d8927a806834a3be9786dce55454f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pierreminiggio/twitter-helpers/zipball/8b556832cd6d8927a806834a3be9786dce55454f",
+                "reference": "8b556832cd6d8927a806834a3be9786dce55454f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PierreMiniggio\\TwitterHelpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pierre MINIGGIO",
+                    "email": "pierre@miniggiodev.fr"
+                }
+            ],
+            "description": "A file from an old application that I could actually use again",
+            "support": {
+                "issues": "https://github.com/pierreminiggio/twitter-helpers/issues",
+                "source": "https://github.com/pierreminiggio/twitter-helpers/tree/0.1.0"
+            },
+            "time": "2020-12-29T12:51:21+00:00"
         }
     ],
     "packages-dev": [],

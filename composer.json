@@ -15,6 +15,7 @@
         "sort-packages": true
     },
     "require": {
-        "pierreminiggio/database-connection": "^1.2"
+        "pierreminiggio/database-connection": "^1.2",
+        "pierreminiggio/twitter-helpers": "^0.1.0"
     }
 }
