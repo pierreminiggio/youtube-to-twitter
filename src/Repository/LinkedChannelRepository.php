@@ -20,7 +20,7 @@ class LinkedChannelRepository
                 t.oauth_access_token_secret,
                 t.consumer_key,
                 t.consumer_secret,
-                t.tweet_prefix
+                t.tweet_content
             FROM twitter_account as t
             RIGHT JOIN twitter_account_youtube_channel as tayc
                 ON t.id = tayc.twitter_id

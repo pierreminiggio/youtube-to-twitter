@@ -43,7 +43,7 @@ CREATE TABLE `twitter_account` (
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-ALTER TABLE `twitter_account` ADD `tweet_prefix` TEXT NOT NULL AFTER `consumer_secret`;
+ALTER TABLE `twitter_account` ADD `tweet_content` TEXT NOT NULL AFTER `consumer_secret`;
 
 -- --------------------------------------------------------
 

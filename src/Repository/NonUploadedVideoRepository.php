@@ -25,6 +25,7 @@ class NonUploadedVideoRepository
         $postsToPost = $this->connection->query('
             SELECT
                 y.id,
+                y.title,
                 y.url
             FROM youtube_video as y
             ' . (
