@@ -69,6 +69,7 @@ CREATE TABLE `twitter_post` (
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+ALTER TABLE `twitter_post` ADD `account_id` INT NOT NULL AFTER `id`;
 
 -- --------------------------------------------------------
 
@@ -90,7 +91,7 @@ CREATE TABLE `twitter_post_youtube_video` (
 
 CREATE TABLE `youtube_video_unpostable_on_twitter` (
   `id` int(11) NOT NULL,
-  `twitter_id` int(11) NOT NULL
+  `youtube_id` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
