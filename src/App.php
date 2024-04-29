@@ -59,7 +59,8 @@ class App
                             $postToPost['title'],
                             $linkedChannel['tweet_content']
                         )
-                    )
+                    ),
+                    TwitterPoster::VERSION_2
                 ), true);
                 if (isset($res['id'])) {
                     $videoToUploadRepository->insertVideoIfNeeded($res['id'], $linkedChannel['t_id'], $postToPost['id']);

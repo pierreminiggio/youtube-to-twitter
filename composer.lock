@@ -4,8 +4,146 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb0a843b010bd1bd10cc25a610e44068",
+    "content-hash": "3dd5a53e5d18aa48bb90b861fabfaf14",
     "packages": [
+        {
+            "name": "abraham/twitteroauth",
+            "version": "7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abraham/twitteroauth.git",
+                "reference": "a8622680f954d0c4f54fd80bedebe00c756ed7aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/a8622680f954d0c4f54fd80bedebe00c756ed7aa",
+                "reference": "a8622680f954d0c4f54fd80bedebe00c756ed7aa",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.2",
+                "ext-curl": "*",
+                "php": "8.*"
+            },
+            "require-dev": {
+                "php-vcr/php-vcr": "^1",
+                "php-vcr/phpunit-testlistener-vcr": "dev-php8",
+                "phpmd/phpmd": "^2",
+                "phpunit/phpunit": "^9",
+                "rector/rector": "^0.15.7",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Abraham\\TwitterOAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abraham Williams",
+                    "email": "abraham@abrah.am",
+                    "homepage": "https://abrah.am",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The most popular PHP library for use with the Twitter OAuth REST API.",
+            "homepage": "https://twitteroauth.com",
+            "keywords": [
+                "Twitter API",
+                "Twitter oAuth",
+                "api",
+                "oauth",
+                "rest",
+                "social",
+                "twitter"
+            ],
+            "support": {
+                "issues": "https://github.com/abraham/twitteroauth/issues",
+                "source": "https://github.com/abraham/twitteroauth"
+            },
+            "time": "2024-02-11T18:58:08+00:00"
+        },
+        {
+            "name": "composer/ca-bundle",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/ca-bundle.git",
+                "reference": "0c5ccfcfea312b5c5a190a21ac5cef93f74baf99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/0c5ccfcfea312b5c5a190a21ac5cef93f74baf99",
+                "reference": "0c5ccfcfea312b5c5a190a21ac5cef93f74baf99",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.10",
+                "psr/log": "^1.0",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\CaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
+            "keywords": [
+                "cabundle",
+                "cacert",
+                "certificate",
+                "ssl",
+                "tls"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/ca-bundle/issues",
+                "source": "https://github.com/composer/ca-bundle/tree/1.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-03-15T14:00:32+00:00"
+        },
         {
             "name": "pierreminiggio/database-connection",
             "version": "1.2.1",
@@ -45,20 +183,21 @@
         },
         {
             "name": "pierreminiggio/twitter-helpers",
-            "version": "0.1.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/twitter-helpers.git",
-                "reference": "8b556832cd6d8927a806834a3be9786dce55454f"
+                "reference": "107f603283dbe7b27b3e1f27fe7806226ce5e900"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/twitter-helpers/zipball/8b556832cd6d8927a806834a3be9786dce55454f",
-                "reference": "8b556832cd6d8927a806834a3be9786dce55454f",
+                "url": "https://api.github.com/repos/pierreminiggio/twitter-helpers/zipball/107f603283dbe7b27b3e1f27fe7806226ce5e900",
+                "reference": "107f603283dbe7b27b3e1f27fe7806226ce5e900",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0 || ^8.0"
+                "abraham/twitteroauth": "^7.0",
+                "php": "^7.4 || ^8.0"
             },
             "type": "library",
             "autoload": {
@@ -76,9 +215,9 @@
             "description": "A file from an old application that I could actually use again",
             "support": {
                 "issues": "https://github.com/pierreminiggio/twitter-helpers/issues",
-                "source": "https://github.com/pierreminiggio/twitter-helpers/tree/0.1.0"
+                "source": "https://github.com/pierreminiggio/twitter-helpers/tree/1.0.0"
             },
-            "time": "2020-12-29T12:51:21+00:00"
+            "time": "2024-04-29T03:05:37+00:00"
         }
     ],
     "packages-dev": [],

@@ -16,6 +16,6 @@
     },
     "require": {
         "pierreminiggio/database-connection": "^1.2",
-        "pierreminiggio/twitter-helpers": "^0.1.0"
+        "pierreminiggio/twitter-helpers": "^1.0"
     }
 }
